@@ -25,3 +25,15 @@
 #container a {
   text-decoration: none;
 }
+
+[tabs]{
+  top: 55px;
+  ion-tab-bar{
+    --color: #fff;
+    ion-tab-button{
+      font-size: 18px;
+      font-weight: 500;
+      --color-selected: #ccc6;
+    }
+  }
+}

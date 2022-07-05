@@ -1,0 +1,23 @@
+.text_title{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.unread_message{
+  flex-direction: column;
+  display: flex;
+  align-items: flex-end;
+  &_counter{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 28px;
+    min-height: 28px;
+    --border-color: var(--ion-color-primary);
+    margin-top: 10px;
+    --background: #28b152;
+  }
+  &_hour{
+    color: #28b152;
+  }
+}
