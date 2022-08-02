@@ -20,6 +20,10 @@ const routes: Routes = [
         loadChildren: () => import('../statut/statut.module').then( m => m.StatutPageModule)
       },
       {
+        path: 'camera',
+        loadChildren: () => import('../camera/camera.module').then( m => m.CameraPageModule)
+      },
+      {
         path: '',
         redirectTo: '/home/discussions',
         pathMatch: 'full'
